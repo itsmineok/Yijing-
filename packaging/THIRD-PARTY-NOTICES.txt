@@ -1,0 +1,16 @@
+Yijing 第三方软件声明
+====================
+
+KataGo
+------
+本安装包包含 KataGo v1.17.x Windows 运行时及神经网络模型。
+KataGo Copyright (c) David J. Wu，依据 MIT License 分发。
+项目与许可证：https://github.com/lightvector/KataGo
+
+.NET
+----
+本安装包包含 Microsoft .NET Desktop Runtime 的自包含组件。
+.NET 依据 MIT License 及其第三方声明分发。
+项目与许可证：https://github.com/dotnet/runtime
+
+本产品与上述项目的原作者不存在隶属或背书关系。完整许可证文本可在对应项目中查阅。

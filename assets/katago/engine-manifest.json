@@ -1,0 +1,483 @@
+{
+  "kataGoVersion": "v1.17.x",
+  "downloads": [
+    {
+      "name": "katago-v1.17.2-trt10.16.1-cuda13.2-windows-x64.zip",
+      "url": "https://github.com/lightvector/KataGo/releases/download/v1.17.2/katago-v1.17.2-trt10.16.1-cuda13.2-windows-x64.zip",
+      "kind": "Archive",
+      "destination": "engines/tensorrt",
+      "expectedArchiveSha256": "7919b1a91fdd42fddac098ae8a98b68612354998e7c2c25b4102598f848a4c63",
+      "runtimeFiles": [
+        {
+          "path": "abseil_dll.dll",
+          "sha256": "c7c6682540250401ecf274c7babd3c133047de9d7ea6f6b618417c3b5cbf2781"
+        },
+        {
+          "path": "analysis_example.cfg",
+          "sha256": "8bbe04b7a940128def93bf7c7af198fa08fc124d99df0758b4e8e7469d9d3963"
+        },
+        {
+          "path": "bz2.dll",
+          "sha256": "ce4a0c4b2e8d4409efb9e882df0adeba4a7332ab5194483aff50a28efee27897"
+        },
+        {
+          "path": "cacert.pem",
+          "sha256": "2782f0f8e89c786f40240fc1916677be660fb8d8e25dede50c9f6f7b0c2c2178"
+        },
+        {
+          "path": "contribute_example.cfg",
+          "sha256": "e2a32cd09cad79b52252fb8af81fd84795cce9f53af6ecf5db3e2ef0a21ad48f"
+        },
+        {
+          "path": "default_gtp.cfg",
+          "sha256": "807c646c5e4f6f5a3193f6da4c216782486ec2a3c3015e543a34f605ce2c0e3f"
+        },
+        {
+          "path": "gtp_human5k_example.cfg",
+          "sha256": "b82b4420a0793874e747ac7d4960c1fc82331db1cba835f0bc7420cdf91d8357"
+        },
+        {
+          "path": "gtp_human9d_search_example.cfg",
+          "sha256": "3d538b649160392672c5169fd85d430482b6c3e40f7a46265a6fac06677e5e0c"
+        },
+        {
+          "path": "katago.exe",
+          "sha256": "6c7f407234289a18ed77a1f0a8065042b10615d33a4ea1f9a046fcecacc9c02a"
+        },
+        {
+          "path": "libcrypto-3-x64.dll",
+          "sha256": "1c2152bcb085a7a85b1e81a0a8cb8c353a4c02fe4bb3b46c5e8b75903b2d0cfd"
+        },
+        {
+          "path": "libprotobuf.dll",
+          "sha256": "6f0241c22baf50b7d0a777c3398edef7d58c06c2c5ce6408f0e63e99f27581f6"
+        },
+        {
+          "path": "libssl-3-x64.dll",
+          "sha256": "d29823911faf71b9d71aa7be306887a6d090dc11dff48e1d432ece66ad534229"
+        },
+        {
+          "path": "match_example.cfg",
+          "sha256": "880fdd6184b782883ff2dc7dc87a484ff46538da0b2203ef98f34fa6e92d755a"
+        },
+        {
+          "path": "msvcp140_1.dll",
+          "sha256": "206c931bf90fdad8816de3b5e2ef80b2bcaa9406c89ecc05fe6fddffe251e982"
+        },
+        {
+          "path": "msvcp140_2.dll",
+          "sha256": "d50d7883f20d1dc6191768d3746f52dd9cac89c346ffaed5be1f110c2f34a838"
+        },
+        {
+          "path": "msvcp140_atomic_wait.dll",
+          "sha256": "3d0cbfaa1bf3eecf5a3f4491d2960ee803cb994f30292c6adc4a07c498f60e2b"
+        },
+        {
+          "path": "msvcp140_codecvt_ids.dll",
+          "sha256": "8a65c7596ef2e6938731f5a1058e7e40145b6d97967cc649231a076b9a608d78"
+        },
+        {
+          "path": "msvcp140.dll",
+          "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca"
+        },
+        {
+          "path": "README.txt",
+          "sha256": "f0e2564dd12f3d09e3466398e04505fb01755409aa5713767be5faeccfda2198"
+        },
+        {
+          "path": "vcruntime140_1.dll",
+          "sha256": "a7146c08f89fe5b04541ab507cdb59ff7b44534d4ba3c668a426c6450a03434e"
+        },
+        {
+          "path": "vcruntime140_threads.dll",
+          "sha256": "40f39e8cee5f5a531b4010e18b807e8fe265b908dc58f959ecb7ebc6ea6cb11a"
+        },
+        {
+          "path": "vcruntime140.dll",
+          "sha256": "d1f4225df2cd877dbf130d5668a021dce3f94118455ff5ec952061c30afc9ce7"
+        },
+        {
+          "path": "z.dll",
+          "sha256": "a07ca94d3843a64b8b916ed83899ad9029578f1a931ec088d81da82834459e0c"
+        },
+        {
+          "path": "zip.dll",
+          "sha256": "0d88c137ddfaf3a506672cdc8da35658a1ea15fb5fd9d91950cb0658266e600e"
+        }
+      ]
+    },
+    {
+      "name": "katago-v1.17.1-opencl-windows-x64.zip",
+      "url": "https://github.com/lightvector/KataGo/releases/download/v1.17.1/katago-v1.17.1-opencl-windows-x64.zip",
+      "kind": "Archive",
+      "destination": "engines/opencl",
+      "expectedArchiveSha256": "68d0a9b11ef7e3c1ddfc5bcd400306ca66c3770dd67a22cb377d3aaaf32e8c66",
+      "runtimeFiles": [
+        {
+          "path": "analysis_example.cfg",
+          "sha256": "8bbe04b7a940128def93bf7c7af198fa08fc124d99df0758b4e8e7469d9d3963"
+        },
+        {
+          "path": "bz2.dll",
+          "sha256": "ce4a0c4b2e8d4409efb9e882df0adeba4a7332ab5194483aff50a28efee27897"
+        },
+        {
+          "path": "cacert.pem",
+          "sha256": "2782f0f8e89c786f40240fc1916677be660fb8d8e25dede50c9f6f7b0c2c2178"
+        },
+        {
+          "path": "contribute_example.cfg",
+          "sha256": "e2a32cd09cad79b52252fb8af81fd84795cce9f53af6ecf5db3e2ef0a21ad48f"
+        },
+        {
+          "path": "default_gtp.cfg",
+          "sha256": "807c646c5e4f6f5a3193f6da4c216782486ec2a3c3015e543a34f605ce2c0e3f"
+        },
+        {
+          "path": "gtp_human5k_example.cfg",
+          "sha256": "b82b4420a0793874e747ac7d4960c1fc82331db1cba835f0bc7420cdf91d8357"
+        },
+        {
+          "path": "gtp_human9d_search_example.cfg",
+          "sha256": "3d538b649160392672c5169fd85d430482b6c3e40f7a46265a6fac06677e5e0c"
+        },
+        {
+          "path": "katago.exe",
+          "sha256": "738b1fcdd5bdeff709ebaa604fa7ea6bac7fa7c564c4b97898531bd133043b10"
+        },
+        {
+          "path": "libcrypto-3-x64.dll",
+          "sha256": "1c2152bcb085a7a85b1e81a0a8cb8c353a4c02fe4bb3b46c5e8b75903b2d0cfd"
+        },
+        {
+          "path": "libssl-3-x64.dll",
+          "sha256": "d29823911faf71b9d71aa7be306887a6d090dc11dff48e1d432ece66ad534229"
+        },
+        {
+          "path": "match_example.cfg",
+          "sha256": "880fdd6184b782883ff2dc7dc87a484ff46538da0b2203ef98f34fa6e92d755a"
+        },
+        {
+          "path": "msvcp140_1.dll",
+          "sha256": "206c931bf90fdad8816de3b5e2ef80b2bcaa9406c89ecc05fe6fddffe251e982"
+        },
+        {
+          "path": "msvcp140_2.dll",
+          "sha256": "d50d7883f20d1dc6191768d3746f52dd9cac89c346ffaed5be1f110c2f34a838"
+        },
+        {
+          "path": "msvcp140_atomic_wait.dll",
+          "sha256": "3d0cbfaa1bf3eecf5a3f4491d2960ee803cb994f30292c6adc4a07c498f60e2b"
+        },
+        {
+          "path": "msvcp140_codecvt_ids.dll",
+          "sha256": "8a65c7596ef2e6938731f5a1058e7e40145b6d97967cc649231a076b9a608d78"
+        },
+        {
+          "path": "msvcp140.dll",
+          "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca"
+        },
+        {
+          "path": "README.txt",
+          "sha256": "31fbf68d4939a0ac03f5db90914ca09aef95a45d03304c86afb9e25026f49d41"
+        },
+        {
+          "path": "vcruntime140_1.dll",
+          "sha256": "a7146c08f89fe5b04541ab507cdb59ff7b44534d4ba3c668a426c6450a03434e"
+        },
+        {
+          "path": "vcruntime140_threads.dll",
+          "sha256": "40f39e8cee5f5a531b4010e18b807e8fe265b908dc58f959ecb7ebc6ea6cb11a"
+        },
+        {
+          "path": "vcruntime140.dll",
+          "sha256": "d1f4225df2cd877dbf130d5668a021dce3f94118455ff5ec952061c30afc9ce7"
+        },
+        {
+          "path": "z.dll",
+          "sha256": "a07ca94d3843a64b8b916ed83899ad9029578f1a931ec088d81da82834459e0c"
+        },
+        {
+          "path": "zip.dll",
+          "sha256": "0d88c137ddfaf3a506672cdc8da35658a1ea15fb5fd9d91950cb0658266e600e"
+        }
+      ]
+    },
+    {
+      "name": "katago-v1.17.1-eigenavx2-windows-x64.zip",
+      "url": "https://github.com/lightvector/KataGo/releases/download/v1.17.1/katago-v1.17.1-eigenavx2-windows-x64.zip",
+      "kind": "Archive",
+      "destination": "engines/eigenavx2",
+      "expectedArchiveSha256": "f13f1126575a22dc728e931011b1b2e404ce2d02b566876a44a01aea3d27e293",
+      "runtimeFiles": [
+        {
+          "path": "analysis_example.cfg",
+          "sha256": "8bbe04b7a940128def93bf7c7af198fa08fc124d99df0758b4e8e7469d9d3963"
+        },
+        {
+          "path": "bz2.dll",
+          "sha256": "ce4a0c4b2e8d4409efb9e882df0adeba4a7332ab5194483aff50a28efee27897"
+        },
+        {
+          "path": "cacert.pem",
+          "sha256": "2782f0f8e89c786f40240fc1916677be660fb8d8e25dede50c9f6f7b0c2c2178"
+        },
+        {
+          "path": "contribute_example.cfg",
+          "sha256": "e2a32cd09cad79b52252fb8af81fd84795cce9f53af6ecf5db3e2ef0a21ad48f"
+        },
+        {
+          "path": "default_gtp.cfg",
+          "sha256": "807c646c5e4f6f5a3193f6da4c216782486ec2a3c3015e543a34f605ce2c0e3f"
+        },
+        {
+          "path": "gtp_human5k_example.cfg",
+          "sha256": "b82b4420a0793874e747ac7d4960c1fc82331db1cba835f0bc7420cdf91d8357"
+        },
+        {
+          "path": "gtp_human9d_search_example.cfg",
+          "sha256": "3d538b649160392672c5169fd85d430482b6c3e40f7a46265a6fac06677e5e0c"
+        },
+        {
+          "path": "katago.exe",
+          "sha256": "19c0cf6d58466586c22289fae5e1bcd3f5b82306766490858003e86b4377e761"
+        },
+        {
+          "path": "libcrypto-3-x64.dll",
+          "sha256": "1c2152bcb085a7a85b1e81a0a8cb8c353a4c02fe4bb3b46c5e8b75903b2d0cfd"
+        },
+        {
+          "path": "libssl-3-x64.dll",
+          "sha256": "d29823911faf71b9d71aa7be306887a6d090dc11dff48e1d432ece66ad534229"
+        },
+        {
+          "path": "match_example.cfg",
+          "sha256": "880fdd6184b782883ff2dc7dc87a484ff46538da0b2203ef98f34fa6e92d755a"
+        },
+        {
+          "path": "msvcp140_1.dll",
+          "sha256": "206c931bf90fdad8816de3b5e2ef80b2bcaa9406c89ecc05fe6fddffe251e982"
+        },
+        {
+          "path": "msvcp140_2.dll",
+          "sha256": "d50d7883f20d1dc6191768d3746f52dd9cac89c346ffaed5be1f110c2f34a838"
+        },
+        {
+          "path": "msvcp140_atomic_wait.dll",
+          "sha256": "3d0cbfaa1bf3eecf5a3f4491d2960ee803cb994f30292c6adc4a07c498f60e2b"
+        },
+        {
+          "path": "msvcp140_codecvt_ids.dll",
+          "sha256": "8a65c7596ef2e6938731f5a1058e7e40145b6d97967cc649231a076b9a608d78"
+        },
+        {
+          "path": "msvcp140.dll",
+          "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca"
+        },
+        {
+          "path": "README.txt",
+          "sha256": "31fbf68d4939a0ac03f5db90914ca09aef95a45d03304c86afb9e25026f49d41"
+        },
+        {
+          "path": "vcruntime140_1.dll",
+          "sha256": "a7146c08f89fe5b04541ab507cdb59ff7b44534d4ba3c668a426c6450a03434e"
+        },
+        {
+          "path": "vcruntime140_threads.dll",
+          "sha256": "40f39e8cee5f5a531b4010e18b807e8fe265b908dc58f959ecb7ebc6ea6cb11a"
+        },
+        {
+          "path": "vcruntime140.dll",
+          "sha256": "d1f4225df2cd877dbf130d5668a021dce3f94118455ff5ec952061c30afc9ce7"
+        },
+        {
+          "path": "z.dll",
+          "sha256": "a07ca94d3843a64b8b916ed83899ad9029578f1a931ec088d81da82834459e0c"
+        },
+        {
+          "path": "zip.dll",
+          "sha256": "0d88c137ddfaf3a506672cdc8da35658a1ea15fb5fd9d91950cb0658266e600e"
+        }
+      ]
+    },
+    {
+      "name": "katago-v1.17.1-eigen-windows-x64.zip",
+      "url": "https://github.com/lightvector/KataGo/releases/download/v1.17.1/katago-v1.17.1-eigen-windows-x64.zip",
+      "kind": "Archive",
+      "destination": "engines/eigen",
+      "expectedArchiveSha256": "3a7538ecb6facefcfe16d649fd695c29e44f8372cb7de8c316eee5779865f379",
+      "runtimeFiles": [
+        {
+          "path": "analysis_example.cfg",
+          "sha256": "8bbe04b7a940128def93bf7c7af198fa08fc124d99df0758b4e8e7469d9d3963"
+        },
+        {
+          "path": "bz2.dll",
+          "sha256": "ce4a0c4b2e8d4409efb9e882df0adeba4a7332ab5194483aff50a28efee27897"
+        },
+        {
+          "path": "cacert.pem",
+          "sha256": "2782f0f8e89c786f40240fc1916677be660fb8d8e25dede50c9f6f7b0c2c2178"
+        },
+        {
+          "path": "contribute_example.cfg",
+          "sha256": "e2a32cd09cad79b52252fb8af81fd84795cce9f53af6ecf5db3e2ef0a21ad48f"
+        },
+        {
+          "path": "default_gtp.cfg",
+          "sha256": "807c646c5e4f6f5a3193f6da4c216782486ec2a3c3015e543a34f605ce2c0e3f"
+        },
+        {
+          "path": "gtp_human5k_example.cfg",
+          "sha256": "b82b4420a0793874e747ac7d4960c1fc82331db1cba835f0bc7420cdf91d8357"
+        },
+        {
+          "path": "gtp_human9d_search_example.cfg",
+          "sha256": "3d538b649160392672c5169fd85d430482b6c3e40f7a46265a6fac06677e5e0c"
+        },
+        {
+          "path": "katago.exe",
+          "sha256": "1afae28312376c9251c780dfe508861e5137b54cca4c7c15f36789ed4f9359e1"
+        },
+        {
+          "path": "libcrypto-3-x64.dll",
+          "sha256": "1c2152bcb085a7a85b1e81a0a8cb8c353a4c02fe4bb3b46c5e8b75903b2d0cfd"
+        },
+        {
+          "path": "libssl-3-x64.dll",
+          "sha256": "d29823911faf71b9d71aa7be306887a6d090dc11dff48e1d432ece66ad534229"
+        },
+        {
+          "path": "match_example.cfg",
+          "sha256": "880fdd6184b782883ff2dc7dc87a484ff46538da0b2203ef98f34fa6e92d755a"
+        },
+        {
+          "path": "msvcp140_1.dll",
+          "sha256": "206c931bf90fdad8816de3b5e2ef80b2bcaa9406c89ecc05fe6fddffe251e982"
+        },
+        {
+          "path": "msvcp140_2.dll",
+          "sha256": "d50d7883f20d1dc6191768d3746f52dd9cac89c346ffaed5be1f110c2f34a838"
+        },
+        {
+          "path": "msvcp140_atomic_wait.dll",
+          "sha256": "3d0cbfaa1bf3eecf5a3f4491d2960ee803cb994f30292c6adc4a07c498f60e2b"
+        },
+        {
+          "path": "msvcp140_codecvt_ids.dll",
+          "sha256": "8a65c7596ef2e6938731f5a1058e7e40145b6d97967cc649231a076b9a608d78"
+        },
+        {
+          "path": "msvcp140.dll",
+          "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca"
+        },
+        {
+          "path": "README.txt",
+          "sha256": "31fbf68d4939a0ac03f5db90914ca09aef95a45d03304c86afb9e25026f49d41"
+        },
+        {
+          "path": "vcruntime140_1.dll",
+          "sha256": "a7146c08f89fe5b04541ab507cdb59ff7b44534d4ba3c668a426c6450a03434e"
+        },
+        {
+          "path": "vcruntime140_threads.dll",
+          "sha256": "40f39e8cee5f5a531b4010e18b807e8fe265b908dc58f959ecb7ebc6ea6cb11a"
+        },
+        {
+          "path": "vcruntime140.dll",
+          "sha256": "d1f4225df2cd877dbf130d5668a021dce3f94118455ff5ec952061c30afc9ce7"
+        },
+        {
+          "path": "z.dll",
+          "sha256": "a07ca94d3843a64b8b916ed83899ad9029578f1a931ec088d81da82834459e0c"
+        },
+        {
+          "path": "zip.dll",
+          "sha256": "0d88c137ddfaf3a506672cdc8da35658a1ea15fb5fd9d91950cb0658266e600e"
+        }
+      ]
+    },
+    {
+      "name": "b11c768h12nbt3tflrs-fson-silu.bin.gz",
+      "url": "https://github.com/lightvector/KataGo/releases/download/v1.17.1/b11c768h12nbt3tflrs-fson-silu.bin.gz",
+      "kind": "File",
+      "destination": "models/b11c768h12nbt3tflrs-fson-silu.bin.gz",
+      "expectedArchiveSha256": "1881600caab9e9d85a3dd6a019e9b8e7d2c237b5f984e13ed49a8645be3077c6",
+      "runtimeFiles": []
+    },
+    {
+      "name": "b10c384h6nbttflrs.bin.gz",
+      "url": "https://github.com/lightvector/KataGo/releases/download/v1.17.1/b10c384h6nbttflrs.bin.gz",
+      "kind": "File",
+      "destination": "models/b10c384h6nbttflrs.bin.gz",
+      "expectedArchiveSha256": "0ba27eced5180b3e3d0b898b280c541112989765e789d1eb6cd0d31b2b2c1229",
+      "runtimeFiles": []
+    }
+  ],
+  "candidates": [
+    {
+      "name": "TensorRT 10.16.1 CUDA 13.2",
+      "kataGoVersion": "v1.17.2",
+      "backend": "TensorRt",
+      "executable": "engines/tensorrt/katago.exe",
+      "model": "models/b11c768h12nbt3tflrs-fson-silu.bin.gz",
+      "config": "analysis.cfg",
+      "sha256": {
+        "executable": "6c7f407234289a18ed77a1f0a8065042b10615d33a4ea1f9a046fcecacc9c02a",
+        "model": "1881600caab9e9d85a3dd6a019e9b8e7d2c237b5f984e13ed49a8645be3077c6",
+        "config": "0a4de24bf259b485e2d6b21f7d87cb1f06d15467f83d60a8246ea32dadf5a56a"
+      },
+      "requiresAvx2": false,
+      "priority": 400,
+      "nnMaxBatchSize": 8
+    },
+    {
+      "name": "OpenCL",
+      "kataGoVersion": "v1.17.1",
+      "backend": "OpenCl",
+      "executable": "engines/opencl/katago.exe",
+      "model": "models/b11c768h12nbt3tflrs-fson-silu.bin.gz",
+      "config": "analysis.cfg",
+      "sha256": {
+        "executable": "738b1fcdd5bdeff709ebaa604fa7ea6bac7fa7c564c4b97898531bd133043b10",
+        "model": "1881600caab9e9d85a3dd6a019e9b8e7d2c237b5f984e13ed49a8645be3077c6",
+        "config": "0a4de24bf259b485e2d6b21f7d87cb1f06d15467f83d60a8246ea32dadf5a56a"
+      },
+      "requiresAvx2": false,
+      "priority": 300,
+      "nnMaxBatchSize": 4
+    },
+    {
+      "name": "Eigen AVX2",
+      "kataGoVersion": "v1.17.1",
+      "backend": "EigenAvx2",
+      "executable": "engines/eigenavx2/katago.exe",
+      "model": "models/b10c384h6nbttflrs.bin.gz",
+      "config": "analysis.cfg",
+      "sha256": {
+        "executable": "19c0cf6d58466586c22289fae5e1bcd3f5b82306766490858003e86b4377e761",
+        "model": "0ba27eced5180b3e3d0b898b280c541112989765e789d1eb6cd0d31b2b2c1229",
+        "config": "0a4de24bf259b485e2d6b21f7d87cb1f06d15467f83d60a8246ea32dadf5a56a"
+      },
+      "requiresAvx2": true,
+      "priority": 200,
+      "nnMaxBatchSize": 1
+    },
+    {
+      "name": "Eigen",
+      "kataGoVersion": "v1.17.1",
+      "backend": "Eigen",
+      "executable": "engines/eigen/katago.exe",
+      "model": "models/b10c384h6nbttflrs.bin.gz",
+      "config": "analysis.cfg",
+      "sha256": {
+        "executable": "1afae28312376c9251c780dfe508861e5137b54cca4c7c15f36789ed4f9359e1",
+        "model": "0ba27eced5180b3e3d0b898b280c541112989765e789d1eb6cd0d31b2b2c1229",
+        "config": "0a4de24bf259b485e2d6b21f7d87cb1f06d15467f83d60a8246ea32dadf5a56a"
+      },
+      "requiresAvx2": false,
+      "priority": 100,
+      "nnMaxBatchSize": 1
+    }
+  ]
+}
